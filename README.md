@@ -2,7 +2,7 @@
 Parallel and distributed computing revolutionize data processing. Multiple processors collaborate (parallel) or work independently (distributed), enhancing speed, efficiency, and scalability in handling complex computations and big data tasks.
 
 
-##LAB 1:
+## LAB 1:
 Create a C++ program named nothreads.cpp that prints the word
 
 "I " 1000 times "GOT " 1000 times "NOBODY" 1000 times "BUT" 1000 times "YOU" 1000 times sequentially no new lines in between using any loop
@@ -13,7 +13,7 @@ Create a C++ program named withthreads.cpp that does the same but each word is o
 
 Submit the source file and screenshot of your output. 
 
-##LAB 2:
+## LAB 2:
 
 Matrix Multiplication is one operation that would benefit if were designed in a concurrent way because of its independent operation. Consider the program below.
 
@@ -94,7 +94,7 @@ int main()
 
 }
 ```
-##LAB #3:
+## LAB 3:
 
 The program initializes a vector with an assigned capacity and a random number for each element. The program counts the histogram of all of the contents of the vector ranging from 1 to 5 and displays it on the screen. The program is also getting the sum of all of the vectors and displays it afterwards. I just displayed the equivalent sum of the histogram and as well as the sum that i was able to get from the vectors for double checking if they match so as to know the program is correct.
 Your task is to improve the performance of the program, as we can see that there are things that we can do in concurrent here namely (counting of histogram and getting the sum of the vector). Convert the program to support multithreading in counting the histogram and getting the sum of the vector.
@@ -204,7 +204,7 @@ int main()
 
 }
 ```
-##LAB #4:
+## LAB 4:
 
 In this laboratory, you will be implementing the Producer-Consumer Pattern in a bounded-buffer. Our bounded-buffer of choice is a stack (std::stack - cppreference.comLinks to an external site.). Make the buffer size (stack’s maximum capacity) to not to exceed having 10000 elements inside. This is your shared data.
 
@@ -231,7 +231,7 @@ The program terminates when both producer finishes its job of adding random numb
 
 Display the total sum of all of the numbers before the program ends. (To determine if the sum is correct, create a temporary variable that accumulates too everytime the producer generates a number both of them should match at the end of the program, much like our previous laboratory). Display both values to check if the sum is correct.
 
-##LAB #5:
+## LAB 5:
 
 IMPLEMENT USING SEMAPHORES.
 
@@ -253,7 +253,7 @@ The program terminates when both producer finishes its job of adding random numb
 
 Display the total sum of all of the numbers before the program ends. (To determine if the sum is correct, create a temporary variable that accumulates too everytime the producer generates a number both of them should match at the end of the program, much like our previous laboratory). Display both values to check if the sum is correct.
 
-##LAB #6:
+## LAB 6:
 
 In this laboratory, you will be converting our single client-server example into a multi client-server setup. By default your server is a C++, The two clients should be of different platform, Use a Java environment and a Python environment. What the program will do is to accept two numbers from the client, pass it on the server, the server will compute for the sum, and sends it back to the client. The client prints the sum
 
