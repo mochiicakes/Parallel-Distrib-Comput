@@ -93,7 +93,7 @@ int main()
     return 0;
 
 }
-
+```
 ##LAB #3:
 
 The program initializes a vector with an assigned capacity and a random number for each element. The program counts the histogram of all of the contents of the vector ranging from 1 to 5 and displays it on the screen. The program is also getting the sum of all of the vectors and displays it afterwards. I just displayed the equivalent sum of the histogram and as well as the sum that i was able to get from the vectors for double checking if they match so as to know the program is correct.
@@ -203,7 +203,7 @@ int main()
     return 0;
 
 }
-
+```
 ##LAB #4:
 
 In this laboratory, you will be implementing the Producer-Consumer Pattern in a bounded-buffer. Our bounded-buffer of choice is a stack (std::stack - cppreference.comLinks to an external site.). Make the buffer size (stack’s maximum capacity) to not to exceed having 10000 elements inside. This is your shared data.
